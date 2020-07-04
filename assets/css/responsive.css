@@ -1,0 +1,220 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .wrapper, .header-space {
+        padding: 0 30px;
+    }
+    .single-slider {
+        min-height: 700px;
+    }
+    .main-menu ul li {
+        margin-left: 30px;
+    }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .wrapper, .header-space {
+        padding: 0 30px;
+    }
+    .main-menu ul li {
+        margin-left: 20px;
+    }
+    .quote-button a.btn-round {
+        padding: 8px 30px;
+    }
+    .single-slider {
+        min-height: 600px;
+    }
+    .blog-wrapper {
+        padding: 18px;
+    }
+    .footer-link li a {
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 10px;
+    }
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu-wrap {
+        padding: 15px 0 0;
+    }
+    .single-slider {
+        min-height: 550px;
+    }
+    .slider-content h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .slider-content p {
+        line-height: 26px;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .btn {
+        padding: 15px 44px;
+    }
+    .promotion-info {
+        padding-left: 30px;
+    }
+    .promotion-info h3 {
+        font-size: 26px;
+    }
+    .portfolio-filter-menu button {
+        padding: 5px 12px;
+    }
+    .footer-link li {
+        width: 100%;
+    }
+    .footer-widget h3 {
+        font-size: 25px;
+    }
+    input[type="submit"] {
+        padding: 5px 10px;
+    }
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .wrapper, .header-space {
+        padding: 0 20px;
+    }
+    .social {
+        padding-left: 20px;
+    }
+    .language {
+        margin-right: 20px;
+    }
+    .off-canvas-menu {
+        width: 300px;
+    }
+    .main-menu-wrap {
+        padding: 15px 0 0;
+    }
+    .logo img {
+        width: auto;
+    }
+    .single-slider {
+        min-height: 400px;
+    }
+    .slider-content {
+        text-align: center;
+    }
+    .slider-content h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .btn {
+        padding: 16px 44px;
+    }
+    .slider-content p {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .feature-title h2 {
+        font-size: 35px;
+    }
+    .feature-box {
+        margin-bottom: 30px;
+    }
+    .feature-area .col-md-4:last-child .feature-box {
+        margin-bottom: 0;
+    }
+    .promotion-area::before {
+        display: none;
+    }
+    .promotion-info {
+        padding-left: 0;
+    }
+    .portfolio-filter-menu button {
+        font-size: 14px;
+        padding: 4px 10px;
+    }
+    .counter-area .section-padding {
+        padding: 75px 0 45px;
+    }
+    .single-counter {
+        margin-bottom: 30px;
+    }
+    .helmate-image.pt-140 {
+        padding-top: 80px;
+    }
+    .footer-widget {
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+    .widget-area .section-padding {
+        padding: 5px 30px;
+    }
+}
+
+
+@media (max-width: 575.98px) { 
+    .social {
+        display: none;
+    }
+    .slider-active .slick-dots, .blog-active .slick-dots, .testimonial-active .slick-dots {
+        display: none !important;
+    }
+    .footer-link li {
+        width: 100%;
+
+    }
+}
+@media (min-width: 320px) and (max-width: 400px) { 
+    .slider-content h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .btn {
+        padding: 10px 30px;
+    }
+    .slider-content p {
+        margin-bottom: 15px;
+    }
+    .feature-title h2 {
+        font-size: 22px;
+    }
+    .feature-box h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .header-right ul li {
+        margin-left: 15px;
+    }
+    .promotion-info h3 {
+        font-size: 20px;
+    }
+    .section-title h2 {
+        font-size: 24px;
+    }
+    .footer-widget h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .section-title.pb-40 {
+        padding-bottom: 20px;
+    }
+    .portfolio-filter-menu button {
+        padding: 0px 10px;
+    }
+    .logo img {
+        width: 60%;
+    }
+    input[type="submit"] {
+        position: static;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
